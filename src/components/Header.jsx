@@ -9,10 +9,10 @@ const Header = () => {
         </div>
         <nav style={{ display: 'flex', gap: '2rem' }}>
           <a href="#opportunity" style={{ color: 'var(--off-white)', textDecoration: 'none', fontSize: '0.9rem' }}>Opportunity</a>
+          <a href="#gallery" style={{ color: 'var(--off-white)', textDecoration: 'none', fontSize: '0.9rem' }}>Vision</a>
           <a href="#fund" style={{ color: 'var(--off-white)', textDecoration: 'none', fontSize: '0.9rem' }}>The Fund</a>
           <a href="#asset" style={{ color: 'var(--off-white)', textDecoration: 'none', fontSize: '0.9rem' }}>Asset</a>
-          <a href="#returns" style={{ color: 'var(--off-white)', textDecoration: 'none', fontSize: '0.9rem' }}>Returns</a>
-          <a href="#team" style={{ color: 'var(--off-white)', textDecoration: 'none', fontSize: '0.9rem' }}>Team</a>
+          <a href="#privileges" style={{ color: 'var(--off-white)', textDecoration: 'none', fontSize: '0.9rem' }}>Privileges</a>
         </nav>
         <div>
           <a href="#contact" className="btn btn-primary" style={{ padding: '0.5rem 1.5rem', fontSize: '0.9rem' }}>Investor Portal</a>

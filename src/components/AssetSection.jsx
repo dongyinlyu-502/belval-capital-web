@@ -13,7 +13,7 @@ const AssetSection = () => {
   ];
 
   return (
-    <section className="section bg-navy" style={{ background: 'var(--off-white)', color: 'var(--navy)' }} id="asset">
+    <section className="section" style={{ background: 'var(--off-white)', color: 'var(--navy)' }} id="asset">
       <div className="container">
         <h2 className="section-title">Kirchberg Work-Life Destination</h2>
         
@@ -24,7 +24,7 @@ const AssetSection = () => {
           </div>
 
           {/* Middle: Asset Key Parameters */}
-          <div className="card bg-navy text-center" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+          <div className="card bg-navy text-center" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', background: 'var(--navy)' }}>
             <h3 className="text-gold" style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Key Parameters</h3>
             <div style={{ marginBottom: '1rem' }}>
               <div style={{ fontSize: '2rem', fontWeight: 'bold' }}>122,000</div>
