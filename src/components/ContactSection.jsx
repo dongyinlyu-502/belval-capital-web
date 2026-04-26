@@ -9,7 +9,7 @@ const ContactSection = () => {
     
     // Simulate API call
     setTimeout(() => {
-      setStatus('Success! An email confirmation has been sent to you and Partner E has been notified.');
+      setStatus('Success! An email confirmation has been sent to you and Stanislas Olivera has been notified.');
       e.target.reset();
     }, 1500);
   };
@@ -27,10 +27,9 @@ const ContactSection = () => {
             </p>
             
             <div style={{ padding: '2rem', background: 'rgba(255, 255, 255, 0.05)', borderRadius: 'var(--radius)', borderLeft: '4px solid var(--gold)' }}>
-              <h4 style={{ color: 'white', marginBottom: '0.5rem' }}>Partner E</h4>
-              <p style={{ color: 'var(--gold)', fontSize: '0.9rem', marginBottom: '1rem' }}>Head of Investor Relations</p>
-              <p style={{ color: 'white', fontSize: '0.9rem', marginBottom: '0.5rem' }}>📧 ir@belvalcapital.lu</p>
-              <p style={{ color: 'white', fontSize: '0.9rem' }}>📞 +352 20 20 20 20</p>
+              <h4 style={{ color: 'white', marginBottom: '0.5rem' }}>Stanislas Olivera</h4>
+              <p style={{ color: 'var(--gold)', fontSize: '0.9rem', marginBottom: '1rem' }}>Investor Relation Partner</p>
+              <p style={{ color: 'white', fontSize: '0.9rem' }}>📧 ir@belvalcapital.lu</p>
             </div>
           </div>
 
